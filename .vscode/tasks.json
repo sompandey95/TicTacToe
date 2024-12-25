@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C/C++: g++.exe build active file",
+            "type": "shell",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "main.cpp",
+                "Game.cpp",
+                "AI.cpp",
+                "-o",
+                "${fileDirname}/TicTacToe.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by Debugger."
+        }
+    ]
+}
